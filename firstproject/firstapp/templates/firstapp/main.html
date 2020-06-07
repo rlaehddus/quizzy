@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <style>
+        h1{font-size: 40pt;font-family: 'Lucida Sans';color:cornflowerblue;}
+        div{background-color: azure;}
+        img{height: 350pt; width: 300pt;}
+        .type1{font-size: 30pt; font-family: 'Georgia';}
+        .type2{font-size: 15pt; font-family: 'Lucida Sans';}
+        .TYPE3{font-family:'Arial';}
+        *{text-align: center;}
+    <head>
+        <title>깔깔깔 Quiz</title>
+    </head>
+    <body>
+        <header>
+            <div><h1><strong>깔깔깔 Quiz</strong></h1></div>
+        </header>
+        <nav>
+            <p class="type1"> 
+                <strong>야, "너두" 풀 수 있어</strong>
+            </p>
+            <p class="type2">
+                *답을 확인하고 싶으면 Quiz(number)를 누르세요*
+            </p>
+        </nav>
+        <section>
+            <a href="{% url 'firstapp:page_one' %}"><strong>Quiz1</strong></a>
+        <article>
+            <p class="type3">
+                <br><strong>Type: 논리</strong>
+                <br>제한 중량 직전까지 짐을 실은 트럭이 주행 중
+                <br>어느 시점부터 제한 중량을 초과하여
+                <br>단속에 걸리고 말았다.
+                <br>도중에 새로운 물건을 실은 적이 없고
+                <br>사람도 타지 않았는데, 과연 무슨 까닭일까?
+                <br>
+                <br><strong>Hint: 날씨</strong>
+            </p>
+            <img src="https://blog.naver.com/PostView.nhn?blogId=pearlove20&logNo=221865535281&redirect=Dlog&widgetTypeCall=true&topReferer=https%3A%2F%2Fsearch.naver.com%2Fsearch.naver%3Fwhere%3Dimage%26sm%3Dtab_jum%26query%3D%25ED%2583%2580%25EC%259A%2594%2B%25EB%25A7%25A5%25EC%258A%25A4&directAccess=false#">
+        </article>
+        </section>
+        <section>
+            <a href="{% url 'firstapp:page_two' %}"><strong>Quiz2</strong></a
+        <article>
+            <p class="type3">
+                <br><strong>Type: 숫자</strong>
+                <br>물음표에 들어갈 답은 무엇일까?
+                <br>
+                <br><strong>2+2+2+2+2</strong>
+                <br><strong>2+2+2+2+2</strong> 
+                <br><strong>2+2x0+2=?</strong>
+                <br>
+                <br><strong>Hint: 가로</strong>
+        </section>
+        <section>
+            <a href="{% url 'firstapp:page_three' %}">three</a>
+        <article>
+            <p class="type3">
+                <br><strong>Type: 추리+답을 알면 어이없는</strong>
+                <br>
+                <br>한 남자가 바에 걸어 들어와 물 한 컵을 달라고 했다.
+                <br>바텐더는 물을 가져가 주고 즉시 뒷문으로 나가 복면을 쓰고 권총을 들고 나왔다.
+                <br>손님은 물을 마신 후 바텐더에게 감사해하며 바를 나갔다.
+                <br>손님이 고마워한 이유는 무엇일까?
+                <br>
+                <br>Hint 1. 바텐더는 손님을 알지 못한다.
+                <br>Hint 2. 바텐더는 범죄자가 아니다.
+                <br>Hint 3. 비록 손님은 무언가를 잃었지만 바텐더는 아무것도 주거나 받지 않았다. 
+            </p>
+            <img src="https://blog.naver.com/PostView.nhn?blogId=pink9220&logNo=221913126610&redirect=Dlog&widgetTypeCall=true&topReferer=https%3A%2F%2Fsearch.naver.com%2Fsearch.naver%3Fwhere%3Dimage%26sm%3Dtab_jum%26query%3D%25EB%25AC%25BC&directAccess=false#">
+        </article>
+        </section>
+    </body>
+</html>
